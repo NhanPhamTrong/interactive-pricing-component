@@ -1,0 +1,14 @@
+body {
+    background-color: $body-background;
+    background-image: url("../images/bg-pattern.svg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    font-family: 'Manrope', sans-serif;
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 375px) {
+    body {
+        background-size: 100% 40%;
+    }
+}
